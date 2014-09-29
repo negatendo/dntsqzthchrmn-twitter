@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "dntsqzthchrmn twitter",
+  "version": "1.0",
+  "description": "The world's first odometer-free social network.",
+
+  "icons": {
+    "48": "img/twitter-48.png",
+    "128": "img/twitter.png"
+  },
+
+  "content_scripts": [
+    {
+      "css": ["css/main.css"],
+      "js": ["js/jquery.min.js", "js/script.js"],
+      "matches": ["*://twitter.com/*"],
+      "run_at": "document_start"
+    }
+  ]
+}

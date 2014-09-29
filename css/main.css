@@ -1,0 +1,24 @@
+/* hide dashboard stats */
+.DashboardProfileCard-stats {
+  display: none !important;
+}
+/* turn off favs */
+.action-fav-container {
+  display: none !important;
+}
+/* hide favorites in notifications */
+.stream-item-favorite {
+  display: none !important;
+}
+/* hide profile stats */
+.ProfileNav-item {
+  display: none !important;  
+}
+/* hide profile per tweet fav stats */
+.ProfileTweet-action--favorite {
+  display: none !important;
+}
+/* hide join date */
+.ProfileHeaderCard-joinDate {
+  display: none !important;
+}
