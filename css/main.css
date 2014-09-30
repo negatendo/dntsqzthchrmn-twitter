@@ -10,6 +10,10 @@
 .stream-item-favorite {
   display: none !important;
 }
+/* had favorite mentions in notifications */
+.stream-item-favorited_mention {
+  display: none !important;
+}
 /* hide profile stats */
 .ProfileNav-item {
   display: none !important;  
@@ -20,5 +24,13 @@
 }
 /* hide join date */
 .ProfileHeaderCard-joinDate {
+  display: none !important;
+}
+/* hide tweet view stats */
+.stats {
+  display: none !important;
+}
+/* hide toasty fav ability */
+.WebToast-action--favorite {
   display: none !important;
 }
