@@ -1,6 +1,8 @@
 dntsqzthchrmn
 =================
 
+![tweet](https://puuuuuuthtml.s3.amazonaws.com/d-t1.png) 
+
 A Chrome Extension that creates an odometer-free Twitter environment (meaning no stats are shown).
 
 Install
