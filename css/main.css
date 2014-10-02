@@ -18,6 +18,12 @@
 .ProfileNav-item {
   display: none !important;  
 }
+
+/* unhide follow/unfollow button */
+.ProfileNav-item--userActions {
+  display: block !important;  
+}
+
 /* hide profile per tweet fav stats */
 .ProfileTweet-action--favorite {
   display: none !important;
